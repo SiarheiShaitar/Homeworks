@@ -11,8 +11,8 @@ request url params: name: str age: int
 response:
 
 [
-    “Str”,
-    “Str”
+    "Str",
+    "Str"
 ]
 
 # /user_info_3
