@@ -9,10 +9,11 @@ EP_1 Method: GET EndPoint: /get_method
 request url params: name: str age: int
 
 response: 
-  [
-      "Str",
-      "Str" 
-  ]
+
+       [
+          "Str",
+          "Str" 
+       ]
 
 # /user_info_3
 
@@ -22,17 +23,17 @@ request form data: name: str age: int salary: int
 
 response:
 
-   {
-	    "name": "name",
-	    "age": "age",
-	    "salary": "salary",
-	    "family": {
-		          "children": [
-			                  ["Alex", 24], 
-			                  ["Kate", 12]
-                              ],
-		          "u_salary_1_5_year": "salary * 4"
-           	      }
+      {
+	         "name": "name",
+	         "age": "age",
+	         "salary": "salary",
+	         "family": {
+		               "children": [
+			                       ["Alex", 24], 
+			                       ["Kate", 12]
+                                   ],
+		              "u_salary_1_5_year": "salary * 4"
+           	           }
     }
 
 # /object_info_1
